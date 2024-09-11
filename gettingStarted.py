@@ -13,13 +13,13 @@ def welcome_assignment_answers(question):
         answer = "Yes"
     elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
         answer = "pcap"
-    elif question == "Is a hased message supposed to be un-hashed? - Yes/No":
+    elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
         answer = "No"
     elif question == "What is the SHA256 hashing value of your NYU email and use the answer in your code - ":
         answer = "7b1b0184458b68aaab16c6b38b9cc2c00ca5676a393dc500e1447bbb0c2d9003"
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
-    elif question == "What layer of the TCP/IP model does the DNS belong to? - The answer should be an integer number":
+    elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
         answer = 5
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
         answer = 3
